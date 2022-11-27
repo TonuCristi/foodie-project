@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Foodie is and AI-powered food subscription that will make you eat healthy again. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Foodie Landing Page</title>
+  </head>
+  <body>
+    <!-- --------- HEADER --------- -->
+    <header class="header container">
+      <a href="index.html" class="logo"
+        >Foodie
+        <ion-icon class="logo__leaf-icon" name="leaf-sharp"></ion-icon>
+      </a>
+
+      <nav data-visible="false" class="nav">
+        <ul class="nav__links">
+          <li><a class="nav__link nav__link_hover_color" href="#">Home</a></li>
+          <li><a class="nav__link" href="#">Packages</a></li>
+          <li><a class="nav__link" href="#">About us</a></li>
+          <li><a class="nav__link" href="#">Contact us</a></li>
+        </ul>
+        <div class="cta">
+          <div class="cta__icon-box">
+            <ion-icon class="cart-icon" name="cart-outline"></ion-icon>
+          </div>
+          <button class="btn cta__book-btn">Booking Now</button>
+        </div>
+      </nav>
+
+      <div class="burger-btn">
+        <div class="burger-btn__line"></div>
+      </div>
+
+      <div class="circle"></div>
+      <div class="scnd-circle"></div>
+    </header>
+
+    <main>
+      <!-- --------- HERO SECTION--------- -->
+      <section>
+        <div class="section-hero container grid grid-2-cols">
+          <div class="section-hero__text-box">
+            <h1 class="section-hero__heading">
+              You Favourite Food Deliverd Hot & Fresh
+            </h1>
+            <p class="section-hero__description">
+              Healthy switcher chefs do all the prep work,like peeding, chopping
+              & marinating, so you can cook a fresh food.
+            </p>
+            <button class="btn section-hero__order-btn">
+              Order Now
+              <ion-icon
+                class="arrow-icon"
+                name="arrow-forward-outline"
+              ></ion-icon>
+            </button>
+          </div>
+          <picture class="section-hero__img-box">
+            <source srcset="img/plate1.webp" type="image/webp" />
+            <source srcset="img/plate1-min.png" type="image/png" />
+            <img
+              class="img"
+              src="img/plate1-min.png"
+              alt="A plate with food."
+            />
+          </picture>
+        </div>
+      </section>
+
+      <!-- --------- INFO SECTION --------- -->
+
+      <section>
+        <div class="section-info container">
+          <div class="section-info__card">
+            <ion-icon
+              class="section-info__card-icon"
+              name="time-outline"
+            ></ion-icon>
+            <div class="section-info__card-work-program">
+              Today 10:00 am - 7:00 pm
+            </div>
+            <div class="section-info__card-description">Working hours</div>
+          </div>
+
+          <div class="section-info__card">
+            <ion-icon
+              class="section-info__card-icon"
+              name="location-outline"
+            ></ion-icon>
+            <div class="section-info__card-address">Velyka Vasylkivska 100</div>
+            <div class="section-info__card-description">Get Directions</div>
+          </div>
+
+          <div class="section-info__card">
+            <ion-icon
+              class="section-info__card-icon"
+              name="call-outline"
+            ></ion-icon>
+            <div class="section-info__card-phone-number">
+              +38 (063)833 24 15
+            </div>
+            <div class="section-info__card-description">Call Online</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- ABOUT SECTION --------- -->
+
+      <section>
+        <div class="section-about container grid grid-2-cols">
+          <picture class="section-about__img-box">
+            <div class="trd-circle"></div>
+            <source srcset="img/plate2.webp" type="image/webp" />
+            <source srcset="img/plate2-min.png" type="image/png" />
+            <img
+              class="img"
+              src="img/plate2-min.png"
+              alt="A plate with food."
+            />
+          </picture>
+
+          <div class="section-about__text-box">
+            <p class="section-about__subheading subheading">About</p>
+            <h2 class="section-about__heading secondary-heading">
+              Food Is An Important Part Of A Balanced Diet
+            </h2>
+            <p
+              class="section-about__description section-about__description-part-1"
+            >
+              They acctually assured me over and over that take little time off
+              and come back and work.Fast forward tow weeks after we are going
+              for a new project.
+            </p>
+            <p
+              class="section-about__description section-about__description-part-2"
+            >
+              I wrote to let them know ready to come back they kicked me off
+              their team slack all of us are make company email.
+            </p>
+            <div class="section-about__cta">
+              <button class="cta__learn-more-btn btn">Learn More</button>
+              <div class="cta__watch-video">
+                <ion-icon class="play-icon" name="play"></ion-icon>
+                <p class="cta__text">Watch Video</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- HOW IT WORKS SECTION --------- -->
+      <section>
+        <div class="section-how container text-center">
+          <div class="section-how__text-box">
+            <p class="section-how__subheading subheading">Work</p>
+            <h2 class="section-how__heading secondary-heading">How It Works</h2>
+            <p class="section-how__description">
+              It's through mistakes that you actually can grow you get rid of
+              <br />
+              everything that is not essential to makihave to get bad.
+            </p>
+          </div>
+
+          <div class="cards-how grid grid-3-cols">
+            <div class="cards-how__card">
+              <ion-icon
+                class="cards-how__icon"
+                name="fast-food-outline"
+              ></ion-icon>
+              <h3 class="cards-how__heading">Pick Meals</h3>
+              <p class="cards-how__description">
+                Choose your meals from our diverse weekly menu. Find gluten or
+                dairy free, low card & veggie options.
+              </p>
+            </div>
+
+            <div class="cards-how__card">
+              <ion-icon
+                class="cards-how__icon"
+                name="thumbs-up-outline"
+              ></ion-icon>
+              <h3 class="cards-how__heading">Choose How Often</h3>
+              <p class="cards-how__description">
+                Our team of chefs do the prep work no more chopping, measuring,
+                or sing full of dishes.
+              </p>
+            </div>
+
+            <div class="cards-how__card">
+              <ion-icon
+                class="cards-how__icon"
+                name="rocket-outline"
+              ></ion-icon>
+              <h3 class="cards-how__heading">Fast Deliveries</h3>
+              <p class="cards-how__description">
+                You freshly preppeed 15-min dinner kits arrive on your door step
+                in a refrigerated box.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- MENU SECTION --------- -->
+      <section>
+        <div class="section-menu container">
+          <div class="section-menu__text-box text-center">
+            <p class="section-menu__subheading subheading">Menu</p>
+            <h2 class="section-menu__heading secondary-heading">
+              Explore Our Best Menu
+            </h2>
+            <p class="section-menu__description">
+              It's through mistakes that you actually can grow you get rid of
+              <br />
+              everything that is not essential to makihave to get bad.
+            </p>
+          </div>
+
+          <div class="cards-menu grid grid-3-cols">
+            <div class="cards-menu__card">
+              <div class="cards-menu__img-box">
+                <picture class="cards-menu__img-box">
+                  <source srcset="img/meals/meal-1.webp" type="image/webp" />
+                  <source srcset="img/meals/meal-1-min.jpg" type="image/png" />
+                  <img
+                    class="img meal-img"
+                    src="img/meals/meal-1.webp"
+                    alt="A plate with food."
+                  />
+                </picture>
+              </div>
+              <div class="cards-menu__text-box">
+                <div class="cards-menu__heading-price">
+                  <h3 class="cards-menu__heading">Rose Muffen</h3>
+                  <p class="cards-menu__price">12$</p>
+                </div>
+                <p class="cards-menu__heading-description">
+                  Served with french fries + drink
+                </p>
+                <p class="cards-menu__description">
+                  Choice of: Coke, Fanta, Sprite, upgrade to large fries, Add
+                  whopper patty, Add Tender crisp patty and more...
+                </p>
+                <div class="cards-menu__rating">
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                </div>
+                <button class="cards-menu__add-btn btn">
+                  <ion-icon class="add-icon" name="add"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="cards-menu__card">
+              <picture class="cards-menu__img-box">
+                <source srcset="img/meals/meal-2.webp" type="image/webp" />
+                <source srcset="img/meals/meal-2-min.jpg" type="image/png" />
+                <img
+                  class="img meal-img"
+                  src="img/meals/meal-2.webp"
+                  alt="A plate with food."
+                />
+              </picture>
+              <div class="cards-menu__text-box">
+                <div class="cards-menu__heading-price">
+                  <h3 class="cards-menu__heading">Pan Cake</h3>
+                  <p class="cards-menu__price">15$</p>
+                </div>
+                <p class="cards-menu__heading-description">
+                  Served with french fries + drink
+                </p>
+                <p class="cards-menu__description">
+                  Choice of: Coke, Fanta, Sprite, upgrade to large fries, Add
+                  whopper patty, Add Tender crisp patty and more...
+                </p>
+                <div class="cards-menu__rating">
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                </div>
+                <button class="cards-menu__add-btn btn">
+                  <ion-icon class="add-icon" name="add"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="cards-menu__card">
+              <picture class="cards-menu__img-box">
+                <source srcset="img/meals/meal-3.webp" type="image/webp" />
+                <source srcset="img/meals/meal-3-min.jpg" type="image/png" />
+                <img
+                  class="img meal-img"
+                  src="img/meals/meal-3.webp"
+                  alt="A plate with food."
+                />
+              </picture>
+              <div class="cards-menu__text-box">
+                <div class="cards-menu__heading-price">
+                  <h3 class="cards-menu__heading">Egg Muffen</h3>
+                  <p class="cards-menu__price">12$</p>
+                </div>
+                <p class="cards-menu__heading-description">
+                  Served with french fries + drink
+                </p>
+                <p class="cards-menu__description">
+                  Choice of: Coke, Fanta, Sprite, upgrade to large fries, Add
+                  whopper patty, Add Tender crisp patty and more...
+                </p>
+                <div class="cards-menu__rating">
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                </div>
+                <button class="cards-menu__add-btn btn">
+                  <ion-icon class="add-icon" name="add"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="cards-menu__card">
+              <picture class="cards-menu__img-box">
+                <source srcset="img/meals/meal-4.webp" type="image/webp" />
+                <source srcset="img/meals/meal-4-min.jpg" type="image/png" />
+                <img
+                  class="img meal-img"
+                  src="img/meals/meal-4.webp"
+                  alt="A plate with food."
+                />
+              </picture>
+              <div class="cards-menu__text-box">
+                <div class="cards-menu__heading-price">
+                  <h3 class="cards-menu__heading">Salads</h3>
+                  <p class="cards-menu__price">12$</p>
+                </div>
+                <p class="cards-menu__heading-description">
+                  Served with french fries + drink
+                </p>
+                <p class="cards-menu__description">
+                  Choice of: Coke, Fanta, Sprite, upgrade to large fries, Add
+                  whopper patty, Add Tender crisp patty and more...
+                </p>
+                <div class="cards-menu__rating">
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                </div>
+                <button class="cards-menu__add-btn btn">
+                  <ion-icon class="add-icon" name="add"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="cards-menu__card">
+              <picture class="cards-menu__img-box">
+                <source srcset="img/meals/meal-5.webp" type="image/webp" />
+                <source srcset="img/meals/meal-5-min.jpg" type="image/png" />
+                <img
+                  class="img meal-img"
+                  src="img/meals/meal-5.webp"
+                  alt="A plate with food."
+                />
+              </picture>
+              <div class="cards-menu__text-box">
+                <div class="cards-menu__heading-price">
+                  <h3 class="cards-menu__heading">Egg Masala</h3>
+                  <p class="cards-menu__price">13$</p>
+                </div>
+                <p class="cards-menu__heading-description">
+                  Served with french fries + drink
+                </p>
+                <p class="cards-menu__description">
+                  Choice of: Coke, Fanta, Sprite, upgrade to large fries, Add
+                  whopper patty, Add Tender crisp patty and more...
+                </p>
+                <div class="cards-menu__rating">
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                </div>
+                <button class="cards-menu__add-btn btn">
+                  <ion-icon class="add-icon" name="add"></ion-icon>
+                </button>
+              </div>
+            </div>
+
+            <div class="cards-menu__card">
+              <picture class="cards-menu__img-box">
+                <source srcset="img/meals/meal-6.webp" type="image/webp" />
+                <source srcset="img/meals/meal-6-min.jpg" type="image/png" />
+                <img
+                  class="img meal-img"
+                  src="img/meals/meal-6.webp"
+                  alt="A plate with food."
+                />
+              </picture>
+              <div class="cards-menu__text-box">
+                <div class="cards-menu__heading-price">
+                  <h3 class="cards-menu__heading">Veggie Muffen</h3>
+                  <p class="cards-menu__price">12$</p>
+                </div>
+                <p class="cards-menu__heading-description">
+                  Served with french fries + drink
+                </p>
+                <p class="cards-menu__description">
+                  Choice of: Coke, Fanta, Sprite, upgrade to large fries, Add
+                  whopper patty, Add Tender crisp patty and more...
+                </p>
+                <div class="cards-menu__rating">
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                  <ion-icon class="star-icon" name="star"></ion-icon>
+                </div>
+                <button class="cards-menu__add-btn btn">
+                  <ion-icon class="add-icon" name="add"></ion-icon>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="section-menu__btn-box text-center">
+            <button class="btn section-menu__more-btn">Load More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- TESTIMONIALS SECTION --------- -->
+      <section>
+        <div class="testimonials-section container text-center">
+          <div class="testimonials-section__text-box">
+            <p class="tesitimonials-section__subheading subheading">
+              Testimonials
+            </p>
+            <h2 class="testimonials-section__heading secondary-heading">
+              What They Are Saying
+            </h2>
+            <p class="testimonials-section__description">
+              It's through mistakes that you actually can grow you get rid of
+              <br />
+              everything that is not essential to makihave to get bad.
+            </p>
+          </div>
+
+          <div class="testimonial-box">
+            <picture class="cards-menu__img-box">
+              <source srcset="img/costumer-img.webp" type="image/webp" />
+              <source
+                srcset="img/meals/costumer-img-min.jpg"
+                type="image/png"
+              />
+              <img
+                class="testimonial-box__costumer-img"
+                src="img/costumer-img.webp"
+                alt="A photo with a costumer"
+              />
+            </picture>
+            <p class="testimonial-box__description">
+              They are engaged comunicators and dedicated problem-solvers <br />
+              regardless of time constraints. The team manageprojet them.
+            </p>
+            <div class="testimonial-box__rating">
+              <ion-icon class="rating-icon" name="star"></ion-icon>
+              <ion-icon class="rating-icon" name="star"></ion-icon>
+              <ion-icon class="rating-icon" name="star"></ion-icon>
+              <ion-icon class="rating-icon" name="star"></ion-icon>
+              <ion-icon class="rating-icon" name="star"></ion-icon>
+            </div>
+            <p class="testimonal-box__costumer-name">Shakib</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- --------- QUESTIONS SECTION --------- -->
+      <section>
+        <div class="queestions-section container text-center">
+          <h2 class="questions-section__heading secondary-heading">
+            Have a question in mind?
+          </h2>
+          <h2 class="questions-section__heading secondary-heading">
+            Let Us Help You
+          </h2>
+
+          <form class="mail-form" action="">
+            <input
+              class="mail-form__input"
+              type="email"
+              placeholder="youremail@gmail.com"
+              required
+            />
+            <button class="mail-form__btn btn">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <nav class="footer__nav">
+        <a href="index.html" class="logo"
+          >Foodie
+          <ion-icon class="logo__leaf-icon" name="leaf-sharp"></ion-icon>
+        </a>
+        <ul class="footer__nav-links">
+          <li>
+            <a class="footer__nav__link" href="#">Home</a>
+          </li>
+          <li><a class="footer__nav__link" href="#">Packages</a></li>
+          <li><a class="footer__nav__link" href="#">About us</a></li>
+          <li><a class="footer__nav__link" href="#">Contact us</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-nav__columns grid grid-4-cols">
+        <ul class="footer-nav__column">
+          <li class="footer-nav__link">
+            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+          </li>
+          <li class="footer-nav__link">
+            <ion-icon class="social-icon" name="logo-youtube"></ion-icon>
+          </li>
+          <li class="footer-nav__link">
+            <ion-icon class="social-icon" name="logo-vimeo"></ion-icon>
+          </li>
+          <li class="footer-nav__item">
+            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+          </li>
+        </ul>
+
+        <ul class="footer-nav__column">
+          <li class="footer-nav__link">Quality</li>
+          <li class="footer-nav__link">Help</li>
+          <li class="footer-nav__link">Share</li>
+          <li class="footer-nav__link">Careers</li>
+        </ul>
+
+        <ul class="footer-nav__column">
+          <li class="footer-nav__link">244-522-1542</li>
+          <li class="footer-nav__link">hellow@food.com</li>
+          <li class="footer-nav__link">press@food.com</li>
+        </ul>
+
+        <ul class="footer-nav__column">
+          <li class="footer-nav__link">Terms & Conditions</li>
+          <li class="footer-nav__link">Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="footer__copyr">
+        <span class="footer__copyr-year">2022</span>&copy; All rights reserved
+        by&nbsp;<span class="footer__company-name">Shakib Ali</span>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
